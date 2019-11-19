@@ -5,10 +5,10 @@ import teja_123.example.android.ecomstatic.Model.products
 
 object DataService {
 
-    val categories= listOf(Categories("SHIRTS","shirtimages"),
-                            Categories("HATS","hatsimages"),
-                            Categories("HOODIES","hoodieimages"),
-                            Categories("DIGITAL","digitalimages")
+    val categories= listOf(Categories("SHIRTS","shirtimage"),
+                            Categories("HATS","hatimage"),
+                            Categories("HOODIES","hoodieimage"),
+                            Categories("DIGITAL","digitalgoodsimage")
     )
 
     val shirts= listOf(products("Devslopes shirt01","14$","shirtimg01"),products("Devslopes shirt02","16$","shirtimg02"),products("Devslopes shirt03","18$","shirtimg03"),products("Devslopes shirt04","18$","shirtimg04"),products("Devslopes shirt05","20$","shirtimg05"))
